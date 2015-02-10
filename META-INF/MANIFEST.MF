@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: UvAdata Translated Text
+Bundle-SymbolicName: nl.uva.data.translatedtext;singleton:=true
+Bundle-Version: 1.0
+Bundle-Vendor: Universiteit van Amsterdam
+Require-Bundle: com.sap.ip.bi.zen.rt.components.sdk.eclipse

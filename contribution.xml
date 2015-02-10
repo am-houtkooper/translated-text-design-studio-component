@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdkExtension xmlns="http://www.sap.com/bi/zen/sdk"
+	title="UvAdata Translated Text"
+	version="1.0"
+	vendor="Universiteit van Amsterdam"
+	id="nl.uva.data.translatedtext">
+
+	<component id="UvADataTranslatedText"
+		title="UvAdata Translated Text"
+		icon="res/icon.png"
+		handlerType="div"
+		databound="true">
+
+		<jsInclude>res/js/component.js</jsInclude>
+		<cssInclude>res/css/component.css</cssInclude>
+
+		<property id="language" type="String" title="Language" group="Display" />
+		<property id="phrase" type="String" title="Phrase" group="Display" />
+		<property id="data" title="Data Series" type="ResultSet" group="DataBinding"/>
+
+		<initialization>
+			<defaultValue property="width">100</defaultValue>
+			<defaultValue property="height">20</defaultValue>
+			<defaultValue property="language">EN</defaultValue>
+			<defaultValue property="phrase">PHRASE_EXAMPLE</defaultValue>
+		</initialization>
+
+	</component>
+
+</sdkExtension>

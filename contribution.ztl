@@ -1,0 +1,23 @@
+class nl.uva.data.translatedtext.UvADataTranslatedText extends Component {
+
+	/* Returns the current language */
+	String getLanguage() {*
+		return this.language;
+	*}
+
+	/* Sets the current language */
+	void setLanguage(String newLanguage) {*
+		this.language = newLanguage;
+	*}
+
+	/* Returns the current phrase */
+	String getPhrase() {*
+		return this.phrase;
+	*}
+
+	/* Sets the current phrase */
+	void setPhrase(String newPhrase) {*
+		this.phrase = newPhrase;
+	*}
+
+}
